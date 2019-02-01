@@ -1,0 +1,40 @@
+#socialMediaIcons a:link .fa, #socialMediaIcons a:visited .fa  {
+    color: grey;
+    margin: 0 10px 0 0;
+}
+body {
+	padding: 1% 30%;
+}
+@media all and (max-width: 768px) {
+	body {
+		margin:0 auto;
+		padding:1% 1%;
+	}
+}
+.section {
+	padding:15px;
+}
+hr.thick {
+	border: 3px solid grey;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	border-radius: 20px;
+}
+hr.thin {
+	border: 1px solid grey;
+	border-bottom: 2px dashed #ddd; 
+	margin-top: 10px;
+	margin-bottom: 3px;
+	border-radius: 20px;
+}
+#socialMediaContact a:link .fa, #socialMediaContact a:visited .fa  {
+	padding-top: 25px;
+    color: grey;
+
+}
+button {
+	margin:5px;
+}
+label {
+	padding-top: 15px;
+}
